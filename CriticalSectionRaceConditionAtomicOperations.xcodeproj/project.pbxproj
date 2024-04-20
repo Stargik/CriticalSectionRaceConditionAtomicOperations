@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D863349D2BD32A6D0027328A /* CriticalSectionExample.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D863349C2BD32A6D0027328A /* CriticalSectionExample.cpp */; };
 		D8799E242BD293E7005FA121 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8799E232BD293E7005FA121 /* main.cpp */; };
+		D8799E2B2BD2A259005FA121 /* MatrixCalculator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8799E2A2BD2A259005FA121 /* MatrixCalculator.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +25,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D863349C2BD32A6D0027328A /* CriticalSectionExample.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CriticalSectionExample.cpp; sourceTree = "<group>"; };
 		D8799E202BD293E7005FA121 /* CriticalSectionRaceConditionAtomicOperations */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CriticalSectionRaceConditionAtomicOperations; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8799E232BD293E7005FA121 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D8799E2A2BD2A259005FA121 /* MatrixCalculator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MatrixCalculator.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				D8799E232BD293E7005FA121 /* main.cpp */,
+				D8799E2A2BD2A259005FA121 /* MatrixCalculator.cpp */,
+				D863349C2BD32A6D0027328A /* CriticalSectionExample.cpp */,
 			);
 			path = CriticalSectionRaceConditionAtomicOperations;
 			sourceTree = "<group>";
@@ -119,7 +125,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8799E2B2BD2A259005FA121 /* MatrixCalculator.cpp in Sources */,
 				D8799E242BD293E7005FA121 /* main.cpp in Sources */,
+				D863349D2BD32A6D0027328A /* CriticalSectionExample.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
